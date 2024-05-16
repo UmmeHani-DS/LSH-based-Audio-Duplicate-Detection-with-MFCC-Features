@@ -1,0 +1,96 @@
+ body {
+
+            font-family: "Times New Roman", Times, serif;
+            color: #666;
+            background-image: url(https://img.freepik.com/free-vector/musical-pentagram-sound-waves-notes-background_1017-33911.jpg?w=2000);
+            background-size: cover;
+            background-position: center center;
+            image-rendering: auto;
+
+        }
+
+        /* Form Styles */
+        form {
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 100px;
+            background-color: #E4CDEA; /* to change box color FA54D4*/
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            font-weight: normal;
+            font-size: 32px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #090A0A; /*upload file text color*/
+            font-family: 'Open Sans', serif; /* Add this line to change font */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 16px;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+            color: #090A0A; /*choose audio text color*/
+            font-family: 'Open Sans', serif; /* Add this line to change font */
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 0 auto 20px;
+            border: none;
+            background-color: #EBA8F2; /*browse search outline color*/
+            padding: 10px;
+            border-radius: 4px;
+            width: 80%;
+            font-size: 18px;
+            font-weight: 500;
+            color: #333;
+            transition: all 0.3s ease;
+            font-family: 'Open Sans', serif; /* Add this line to change font */
+        }
+
+        input[type="submit"] {
+            background-color: #AC23F5; /*upload button colour*/
+            color: #F4F1F6; /*Upload text color*/
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 22px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+            font-family: 'Open Sans', serif; /* Add this line to change font */
+        }
+
+        input[type="submit"]:hover {
+            background-color: #B775E4; /*Upload button hover colour*/
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            form {
+                width: 80%;
+            }
+
+            input[type="file"] {
+                width: 100%;
+            }
+        }
+
+        /* Error message styles */
+        .error-message {
+            color: red;
+            font-size: 18px;
+            margin-top: 10px;
+            font-family: 'Open Sans', sans-serif; /* Add this line to change font */
+        }

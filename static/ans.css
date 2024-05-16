@@ -1,0 +1,18 @@
+ body {
+      font-family: 'Open Sans', serif;
+      background-image: url(https://img.freepik.com/free-vector/musical-pentagram-sound-waves-notes-background_1017-33911.jpg?w=2000);
+      background-size: cover;
+      background-position: center center;
+    }
+    h1 {
+      color: #336699;
+      text-align: center;
+       font-size: 50px;
+    }
+    .output {
+      font-size: 22px;
+      line-height: 1.5;
+      color: #333;
+      text-align: center;
+      margin-top: 60px;
+    }
