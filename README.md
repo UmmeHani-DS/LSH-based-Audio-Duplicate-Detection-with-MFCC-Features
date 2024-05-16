@@ -29,13 +29,13 @@ The purpose of this project is to identify duplicate audio files by extracting M
 1. Clone the repository:
     ```sh
     git clone https://github.com/UmmeHani-DS/LSH-based-Audio-Duplicate-Detection-with-MFCC-Features.git
-    cd LSH-Audio-Duplicate-Detection
+    cd LSH-based-Audio-Duplicate-Detection-with-MFCC-Features
     ```
 
 2. Create and activate a virtual environment:
     ```sh
     python -m venv venv
-    venv\Scripts\activate # On Windows use source `venv/bin/activate`
+    venv\Scripts\activate  # On Ubuntu/Linux use `source venv/bin/activate`
     ```
 
 3. Install the required dependencies:
@@ -43,10 +43,10 @@ The purpose of this project is to identify duplicate audio files by extracting M
     pip install -r requirements.txt
     ```
 
-4. Set up Flask environment variables:
+4. Set up Flask environment variables (on Windows):
     ```sh
-    export FLASK_APP=app.py
-    export FLASK_ENV=development  # For development mode
+    set FLASK_APP=app.py
+    set FLASK_ENV=development  # For development mode
     ```
 
 5. Run the Flask application:
@@ -59,8 +59,9 @@ The purpose of this project is to identify duplicate audio files by extracting M
 ## Usage
 
 1. Open the web application in your browser.
-2. Upload one audio file using the provided interface.
-3. The results will be display potential duplicate audio files.
+2. Upload one or more audio files using the provided interface.
+3. Click on the "Detect Duplicates" button.
+4. View the results displaying potential duplicate audio files.
 
 ## How It Works
 
