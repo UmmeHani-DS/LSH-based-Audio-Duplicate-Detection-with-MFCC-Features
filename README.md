@@ -10,8 +10,6 @@ This project is an implementation of audio duplicate detection using Locality-Se
 - [Usage](#usage)
 - [How It Works](#how-it-works)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -24,7 +22,7 @@ The purpose of this project is to identify duplicate audio files by extracting M
 - **Duplicate Detection**: Use LSH to detect and identify duplicate audio files.
 - **Results Display**: Display results on the web interface indicating potential duplicates.
 
-## Installation
+## Installation on Windows
 
 1. Clone the repository:
     ```sh
@@ -35,7 +33,7 @@ The purpose of this project is to identify duplicate audio files by extracting M
 2. Create and activate a virtual environment:
     ```sh
     python -m venv venv
-    venv\Scripts\activate  # On Ubuntu/Linux use `source venv/bin/activate`
+    venv\Scripts\activate
     ```
 
 3. Install the required dependencies:
@@ -43,7 +41,7 @@ The purpose of this project is to identify duplicate audio files by extracting M
     pip install -r requirements.txt
     ```
 
-4. Set up Flask environment variables (on Windows):
+4. Set up Flask environment variables:
     ```sh
     set FLASK_APP=app.py
     set FLASK_ENV=development  # For development mode
